@@ -221,7 +221,7 @@ function s_pwd(){
            return;
        }    
        else{
-           document.getElementById('display').innerHTML='  \n This is a strong standerd password. ';
+           document.getElementById('display').innerHTML='  \n This is a strong standard password. ';
        }
        
        for( var i =0 ; i<3 ; i++) 
