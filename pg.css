@@ -490,7 +490,18 @@ nav {
 
 button#dm {
   padding: 10px;
-  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+button#dm:hover {
+  background-color: #151a24;
+  transition: 0.5s;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
 }
 
 body.dark {
@@ -544,10 +555,17 @@ input.dark {
 
   button#dm {
     padding: .4rem;
-    border-radius: 10px;
     background-color: transparent;
     border: transparent;
     color: #fff;
+    box-shadow: none;
+    border-radius: 2px;
+  }
+
+  button#dm:hover {
+    background-color: #151a24;
+    transition: 0.5s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   }
 
   .io {
@@ -616,4 +634,5 @@ input.dark {
     color: #fff;
   }
 }
+
 
