@@ -1,0 +1,67 @@
+{
+  "id": "377f5220-9eb1-4070-9cc7-ede9ca161af9",
+  "version": "2.0",
+  "name": "ESS",
+  "url": "http://127.0.0.1:3000",
+  "tests": [{
+    "id": "cd029bef-3f31-49b8-ae5d-de7f010a322b",
+    "name": "Highly Secure",
+    "commands": [{
+      "id": "f904d8b7-9da3-48a8-b0eb-68b4925840d0",
+      "comment": "",
+      "command": "open",
+      "target": "/Secure-Password-generator-main/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06802185-5077-4559-adb7-a2208936538f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "783589fa-670f-41d9-9d1e-17f0a6e6a45e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#hs > .tooltip-left",
+      "targets": [
+        ["css=#hs > .tooltip-left", "css:finder"],
+        ["xpath=//button[@id='hs']/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "062dd444-2133-4016-b362-993ed419b163",
+      "comment": "",
+      "command": "click",
+      "target": "css=.check-front",
+      "targets": [
+        ["css=.check-front", "css:finder"],
+        ["xpath=//button[@id='gp']/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Genarate Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "576aae04-3d20-4c5a-bb0a-dc22f624f9de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.st0",
+      "targets": [
+        ["css=.st0", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c5ecfbc4-c980-4b76-bdbe-1262493cdc0f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cd029bef-3f31-49b8-ae5d-de7f010a322b"]
+  }],
+  "urls": ["http://127.0.0.1:3000/"],
+  "plugins": []
+}
